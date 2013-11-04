@@ -1,28 +1,25 @@
 # OSM Editor Imagery Index
 
-The goal of this project is to maintain a canonical representation of the imagery
-overlays available to [OpenStreetMap](http://www.openstreetmap.org/) editors such as
-[iD](https://github.com/systemed/iD), [JOSM](http://josm.openstreetmap.de/), and
-[Potlatch 2](https://github.com/systemed/potlatch2).
+The goal of this project is to maintain a representation of imagery 
+overlays and layers useful for editing historic features in editors 
+that communicate with an OpenStreetMap-based API such as
+[iD](https://github.com/systemed/iD), [JOSM](http://josm.openstreetmap.de/), 
+and [Potlatch 2](https://github.com/systemed/potlatch2).
 
-This list is purely targeted at OpenStreetMap and does not include 
-layers only useful for other projects such as 
-[Open Historical Map](http://www.openhistoricalmap.org/) if the layers 
-are not also useful for OpenStreetMap. With the way this list is structured 
-it is easy to combine it with additional sources of imagery simply by copying 
-the additional sources into their own directory and running `make`. 
-
-Some sources in this list are usable in OpenStreetMap because permission 
-was specifically given to use them with OpenStreetMap and this 
-permission does not extend to other projects. 
+This list is for imagery not present in the [editor-imagery-index](https://github.com/osmlab/editor-imagery-index) and is for imagery only useful for historic mapping, not general-purpose mapping.
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for help on how to contribute.
 
 ## Using this index
 
-If you are using iD, you are already using this index!
+### id
+How?
 
-For JOSM you can add `http://osmlab.github.io/editor-imagery-index/imagery.xml` 
+### JOSM
+
+*Note: We are not yet building imagery.xml*
+
+For JOSM you can add `http://osmlab.github.io/historic-imagery-index/imagery.xml` 
 to the preference key `imagery.layers.sites` in advanced preferences. You probably
 want to remove the `https://josm.openstreetmap.de/maps` entry or you'll get the 
 same imagery listed twice.
