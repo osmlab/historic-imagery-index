@@ -1,0 +1,3 @@
+[submodule "editor-imagery-index"]
+	path = editor-imagery-index
+	url = https://github.com/osmlab/editor-imagery-index.git
