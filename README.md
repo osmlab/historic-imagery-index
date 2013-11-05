@@ -12,12 +12,10 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for help on how to contribute.
 
 ## Using this index
 
-### id
+### iD
 How?
 
 ### JOSM
-
-*Note: We are not yet building imagery.xml*
 
 For JOSM you can add `http://osmlab.github.io/historic-imagery-index/imagery.xml` 
 to the preference key `imagery.layers.sites` in advanced preferences. You probably
