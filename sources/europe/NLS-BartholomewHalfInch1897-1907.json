@@ -6,6 +6,8 @@
     },
     "name": "NLS - Bartholomew Half Inch, 1897-1907",
     "url": "http://geo.nls.uk/mapdata2/bartholomew/great_britain/{zoom}/{x}/{-y}.png",
+    "start_date": "1897",
+    "end_date": "1908",
     "extent": {
         "max_zoom": 15,
         "bbox": {

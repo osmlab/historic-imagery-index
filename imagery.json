@@ -55099,6 +55099,7 @@
             "required": true
         }, 
         "name": "NLS - Bartholomew Half Inch, 1897-1907", 
+        "end_date": "1908", 
         "url": "http://geo.nls.uk/mapdata2/bartholomew/great_britain/{zoom}/{x}/{-y}.png", 
         "extent": {
             "max_zoom": 15, 
@@ -55110,6 +55111,7 @@
             }
         }, 
         "type": "tms", 
+        "start_date": "1897", 
         "icon": "http://nls.tileserver.com/nls70-nq8.png"
     }, 
     {
@@ -55119,6 +55121,7 @@
             "required": true
         }, 
         "name": "NLS - OS 1-inch 7th Series 1955-61", 
+        "end_date": "1962", 
         "url": "http://geo.nls.uk/mapdata2/os/seventh/{zoom}/{x}/{-y}.png", 
         "extent": {
             "min_zoom": 5, 
@@ -56161,12 +56164,13 @@
             ]
         }, 
         "type": "tms", 
+        "start_date": "1955", 
         "icon": "http://nls.tileserver.com/nls70-nq8.png"
     }, 
     {
-        "url": "http://ooc.openstreetmap.org/npe/{zoom}/{x}/{y}.png", 
-        "type": "tms", 
         "name": "OS New Popular Edition historic", 
+        "end_date": "1950", 
+        "url": "http://ooc.openstreetmap.org/npe/{zoom}/{x}/{y}.png", 
         "extent": {
             "bbox": {
                 "min_lon": -5.8, 
@@ -56174,6 +56178,8 @@
                 "min_lat": 49.8, 
                 "max_lon": 1.9
             }
-        }
+        }, 
+        "type": "tms", 
+        "start_date": "1940"
     }
 ]

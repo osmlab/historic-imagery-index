@@ -2,6 +2,8 @@
     "url": "http://ooc.openstreetmap.org/npe/{zoom}/{x}/{y}.png", 
     "type": "tms", 
     "name": "OS New Popular Edition historic", 
+    "start_date": "1940",
+    "end_date": "1950",
     "extent": {
         "bbox": {
             "min_lon": -5.8,
