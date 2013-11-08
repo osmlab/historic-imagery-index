@@ -2808,6 +2808,16 @@
     </projections>
   </entry>
   <entry>
+    <name>Erlangen Luftbild (2013 6,25 cm)</name>
+    <type>wms</type>
+    <url>https://secure.erlangen.de/arcgiser/services/Luftbilder2013/MapServer/WmsServer?FORMAT=image/bmp&amp;VERSION=1.1.1&amp;SERVICE=WMS&amp;REQUEST=GetMap&amp;LAYERS=Erlangen_ratio5_6.25cm.jp2&amp;STYLES=&amp;SRS={proj}&amp;WIDTH={width}&amp;HEIGHT={height}&amp;BBOX={bbox}</url>
+    <projections>
+      <code>EPSG:4326</code>
+      <code>EPSG:31494</code>
+    </projections>
+    <bounds max-lat="49.65197" max-lon="11.060541" min-lat="49.529259" min-lon="10.905885" />
+  </entry>
+  <entry>
     <name>Estonia Basemap (Maaamet)</name>
     <type>wms</type>
     <url>http://xgis.maaamet.ee/wms-pub/alus-geo?FORMAT=image/jpeg&amp;VERSION=1.1.1&amp;SERVICE=WMS&amp;REQUEST=GetMap&amp;Layers=pohi_vr2&amp;SRS={proj}&amp;WIDTH={width}&amp;HEIGHT={height}&amp;BBOX={bbox}</url>
@@ -9623,6 +9633,160 @@
     <url>http://tms.freemap.sk/historicke/{zoom}/{x}/{y}.png</url>
     <max-zoom>12</max-zoom>
     <bounds max-lat="49.503032" max-lon="22.838832" min-lat="47.492724" min-lon="16.819695" />
+  </entry>
+  <entry>
+    <name>South Tyrol Orthofoto 2011</name>
+    <type>wms</type>
+    <url>http://sdi.provinz.bz.it/geoserver/wms?SERVICE=WMS&amp;FORMAT=image/jpeg&amp;VERSION=1.1.1&amp;SERVICE=WMS&amp;REQUEST=GetMap&amp;LAYERS=WMTS_OF2011_APB-PAB&amp;STYLES=&amp;SRS={proj}&amp;WIDTH={width}&amp;HEIGHT={height}&amp;BBOX={bbox}</url>
+    <projections>
+      <code>EPSG:4326</code>
+      <code>EPSG:900913</code>
+      <code>EPSG:3857</code>
+      <code>EPSG:3034</code>
+      <code>EPSG:3035</code>
+      <code>EPSG:3043</code>
+      <code>EPSG:3044</code>
+      <code>EPSG:3045</code>
+      <code>EPSG:4258</code>
+      <code>EPSG:23031</code>
+      <code>EPSG:23032</code>
+      <code>EPSG:25832</code>
+      <code>EPSG:25833</code>
+      <code>EPSG:32631</code>
+      <code>EPSG:32632</code>
+      <code>EPSG:32633</code>
+      <code>EPSG:32634</code>
+      <code>EPSG:3003</code>
+      <code>EPSG:3004</code>
+      <code>EPSG:3064</code>
+      <code>EPSG:3065</code>
+      <code>EPSG:23032</code>
+      <code>EPSG:23033</code>
+      <code>EPSG:3416</code>
+      <code>EPSG:31251</code>
+      <code>EPSG:31252</code>
+      <code>EPSG:31253</code>
+      <code>EPSG:31254</code>
+      <code>EPSG:31255</code>
+      <code>EPSG:31256</code>
+      <code>EPSG:31257</code>
+      <code>EPSG:31258</code>
+      <code>EPSG:31259</code>
+      <code>EPSG:31281</code>
+      <code>EPSG:31282</code>
+      <code>EPSG:31283</code>
+      <code>EPSG:31284</code>
+      <code>EPSG:31285</code>
+      <code>EPSG:31286</code>
+      <code>EPSG:31287</code>
+      <code>EPSG:31288</code>
+      <code>EPSG:31289</code>
+      <code>EPSG:31290</code>
+      <code>EPSG:2397</code>
+      <code>EPSG:2398</code>
+      <code>EPSG:2399</code>
+      <code>EPSG:3068</code>
+      <code>EPSG:3329</code>
+      <code>EPSG:3333</code>
+      <code>EPSG:3396</code>
+      <code>EPSG:3397</code>
+      <code>EPSG:3399</code>
+      <code>EPSG:3833</code>
+      <code>EPSG:3834</code>
+      <code>EPSG:3835</code>
+      <code>EPSG:3837</code>
+      <code>EPSG:3838</code>
+      <code>EPSG:31466</code>
+      <code>EPSG:31467</code>
+      <code>EPSG:31468</code>
+      <code>EPSG:31469</code>
+      <code>EPSG:2056</code>
+      <code>EPSG:21781</code>
+    </projections>
+    <bounds max-lat="47.098175" max-lon="12.482758" min-lat="46.213553" min-lon="10.373383" />
+  </entry>
+  <entry>
+    <name>South Tyrol Orthofoto 2011</name>
+    <type>tms</type>
+    <url>http://sdi.provincia.bz.it/geoserver/gwc/service/tms/1.0.0/WMTS_OF2011_APB-PAB@GoogleMapsCompatible@png8/{z}/{x}/{-y}.png</url>
+    <bounds max-lat="47.098175" max-lon="12.482758" min-lat="46.213553" min-lon="10.373383" />
+  </entry>
+  <entry>
+    <name>South Tyrol Topomap</name>
+    <type>wms</type>
+    <url>http://sdi.provinz.bz.it/geoserver/wms?SERVICE=WMS&amp;FORMAT=image/jpeg&amp;VERSION=1.1.1&amp;SERVICE=WMS&amp;REQUEST=GetMap&amp;LAYERS=WMTS_TOPOMAP_APB-PAB&amp;STYLES=&amp;SRS={proj}&amp;WIDTH={width}&amp;HEIGHT={height}&amp;BBOX={bbox}</url>
+    <projections>
+      <code>EPSG:4326</code>
+      <code>EPSG:900913</code>
+      <code>EPSG:3857</code>
+      <code>EPSG:3034</code>
+      <code>EPSG:3035</code>
+      <code>EPSG:3043</code>
+      <code>EPSG:3044</code>
+      <code>EPSG:3045</code>
+      <code>EPSG:4258</code>
+      <code>EPSG:23031</code>
+      <code>EPSG:23032</code>
+      <code>EPSG:25832</code>
+      <code>EPSG:25833</code>
+      <code>EPSG:32631</code>
+      <code>EPSG:32632</code>
+      <code>EPSG:32633</code>
+      <code>EPSG:32634</code>
+      <code>EPSG:3003</code>
+      <code>EPSG:3004</code>
+      <code>EPSG:3064</code>
+      <code>EPSG:3065</code>
+      <code>EPSG:23032</code>
+      <code>EPSG:23033</code>
+      <code>EPSG:3416</code>
+      <code>EPSG:31251</code>
+      <code>EPSG:31252</code>
+      <code>EPSG:31253</code>
+      <code>EPSG:31254</code>
+      <code>EPSG:31255</code>
+      <code>EPSG:31256</code>
+      <code>EPSG:31257</code>
+      <code>EPSG:31258</code>
+      <code>EPSG:31259</code>
+      <code>EPSG:31281</code>
+      <code>EPSG:31282</code>
+      <code>EPSG:31283</code>
+      <code>EPSG:31284</code>
+      <code>EPSG:31285</code>
+      <code>EPSG:31286</code>
+      <code>EPSG:31287</code>
+      <code>EPSG:31288</code>
+      <code>EPSG:31289</code>
+      <code>EPSG:31290</code>
+      <code>EPSG:2397</code>
+      <code>EPSG:2398</code>
+      <code>EPSG:2399</code>
+      <code>EPSG:3068</code>
+      <code>EPSG:3329</code>
+      <code>EPSG:3333</code>
+      <code>EPSG:3396</code>
+      <code>EPSG:3397</code>
+      <code>EPSG:3399</code>
+      <code>EPSG:3833</code>
+      <code>EPSG:3834</code>
+      <code>EPSG:3835</code>
+      <code>EPSG:3837</code>
+      <code>EPSG:3838</code>
+      <code>EPSG:31466</code>
+      <code>EPSG:31467</code>
+      <code>EPSG:31468</code>
+      <code>EPSG:31469</code>
+      <code>EPSG:2056</code>
+      <code>EPSG:21781</code>
+    </projections>
+    <bounds max-lat="47.098175" max-lon="12.482758" min-lat="46.213553" min-lon="10.373383" />
+  </entry>
+  <entry>
+    <name>South Tyrol Topomap</name>
+    <type>tms</type>
+    <url>http://sdi.provincia.bz.it/geoserver/gwc/service/tms/1.0.0/WMTS_TOPOMAP_APB-PAB@GoogleMapsCompatible@png8/{z}/{x}/{-y}.png</url>
+    <bounds max-lat="47.098175" max-lon="12.482758" min-lat="46.213553" min-lon="10.373383" />
   </entry>
   <entry>
     <name>Stadt Bern 10cm/25cm (2008)</name>
